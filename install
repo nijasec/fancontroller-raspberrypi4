@@ -5,8 +5,8 @@ set -e
 cd "$(dirname "$0")/.."
 
 echo "=> Installing fan controller...\n"
-sudo cp fan.o /usr/local/bin/
-sudo chmod +x /usr/local/bin/fan.o
+sudo cp gp.py /usr/local/bin/
+sudo chmod +x /usr/local/bin/gp.py
 
 echo "=> Starting fan controller...\n"
 sudo cp fancontrol.sh /etc/init.d/
